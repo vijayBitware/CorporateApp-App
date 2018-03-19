@@ -1,0 +1,187 @@
+<resources>
+    <string name="app_name">PCMC PRABHAG 11</string>
+
+
+    <!--For login screen-->
+    <string name="screen_title">PCMC PRABHAG - 11</string>
+    <string name="login_titile">LOGIN</string>
+    <string name="phone_number_hint">Phone Number</string>
+    <string name="password_hint">Password</string>
+    <string name="forget_password_title">Forget Password</string>
+    <string name="new_user_titile">New User? Register</string>
+    <!--For login screen-->
+
+    <!--For Registration-->
+    <string name="email_hint">Email</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="signup_title">SIGN UP</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="name">Name</string>
+    <string name="already_user">Already User? Login</string>
+    <!--For Registration-->
+
+    <!--For home screen-->
+    <string name="our_operator_title">Our Corporator</string>
+    <string name="view_all">View All</string>
+    <string name="news">News</string>
+    <string name="photo_gallary">Photo Gallary</string>
+    <string name="news_row_title">Title - </string>
+    <string name="news_row_date">Date - </string>
+    <string name="complaint">Complaints</string>
+    <string name="suggesions">Suggesions</string>
+    <string name="current_development">Current Development</string>
+    <string name="emergency_contact">Emergency Contact</string>
+    <string name="about_us">About Me</string>
+    <!--For home screen-->
+
+    <!--For complaints-->
+    <string name="txt_open">Open</string>
+    <string name="txt_closed">Closed</string>
+    <string name="txt_inprogress">InProgress</string>
+    <string name="txt_complaintHd">Complaint Details</string>
+    <string name="tab_mycomplaint">My Complaints</string>
+    <string name="tab_allcomplaints">All Complaints</string>
+    <string name="no_complaints">No Complaints Available</string>
+    <string name="txt_ward">Ward</string>
+    <string name="txt_location">Location</string>
+    <string name="txt_suggesiondetail">Suggesion Detail</string>
+    <!--For complaints-->
+
+    <!--For suggesions-->
+    <string name="tab_mysuggesions">My Suggesions</string>
+    <string name="tab_allsuggesions">All Suggesions</string>
+    <string name="no_suggesion">No Suggesions Available</string>
+    <!--For complaints-->
+
+    <!--strings for suggestion form screen-->
+    <string name="txt_info">INFO</string>
+    <string name="txt_title">Title</string>
+    <string name="txt_date">Date</string>
+    <string name="txt_department">Department</string>
+    <string name="txt_description">Description</string>
+    <string name="txt_pincode">Pincode</string>
+    <string name="btn_submit">SUBMIT</string>
+    <string name="btn_cancel">CANCEL</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--strings for suggestion form screen-->
+
+
+    <!--For member details-->
+    <string name="txt_memDetHd">Member Details</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_phNo">Phone Number</string>
+    <string name="txt_address">Address</string>
+    <string name="btn_back">BACK</string>
+    <string name="txt_allMembers">All Member</string>
+
+    <!--For member details-->
+
+
+    <!--For development details-->
+    <string name="txt_DevDetHd">Development Details</string>
+    <string name="txt_devHd">Development Heading</string>
+    <string name="txt_norecords">No records found</string>
+    <string name="txt_actiontaken">Action Taken</string>
+    <string name="open">Open</string>
+
+
+    <!--For development details-->
+
+    <!--For news-->
+    <string name="txt_allNws">All News</string>
+    <string name="txt_currentdev">Development</string>
+    <!--For news-->
+
+    <!--no internet msg-->
+    <string name="no_internet">Please Check Your Internet Connection</string>
+
+    <!--Registration validation-->
+    <string name="enter_email">Please Enter Email</string>
+    <string name="enter_valid_email">Please Enter Valid Email</string>
+    <string name="enter_number">Please Enter Phone Number</string>
+    <string name="enter_valid_number">Please Enter Valid Phone Number</string>
+    <string name="enter_password">Please Enter Password</string>
+    <string name="enter_confirmPassword">Please Confirm Your Password</string>
+    <string name="password_dosent_match">Password Dosent Match</string>
+    <string name="enter_name">Please Enter Name</string>
+
+    <!--forgot password-->
+    <string name="fort_password_title">Forgot Password</string>
+    <string name="submit">SUBMIT</string>
+
+    <!--user profile-->
+    <string name="change_password">Change Password</string>
+    <string name="logout">Logout</string>
+
+    <!--logout dialog-->
+    <string name="logout_msg">Are you sure you want to logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!--Langugae-->
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="marathi">Marathi</string>
+
+    <!--status-->
+    <string name="status_open">Open</string>
+    <string name="status_inprogress">In Progress</string>
+    <string name="status_close">Close</string>
+    <string name="status_not_verifiedd">Not Verified</string>
+
+    <!--submission form-->
+    <string name="txt_selectedward">Select Ward</string>
+    <string name="change">Change</string>
+
+    <!--headings-->
+    <string name="news_details">News Details</string>
+
+    <!--emegency contacts-->
+    <string name="ambulance">Ambulance</string>
+    <string name="police_station">Police Station</string>
+    <string name="hospital">Hospital</string>
+    <string name="blood_bank">Blood Bank</string>
+    <string name="fire_brigade">Fire Brigade</string>
+    <string name="water_supply">Water Supply</string>
+    <string name="maternity_home">Maternity Home</string>
+
+
+    <!--search hints-->
+    <string name="search_corporator">Search Corporator</string>
+    <string name="search_news">Search News</string>
+    <string name="search_development">Search Development</string>
+    <string name="search_complaint">Search Complaint</string>
+    <string name="search_suggesion">Search Suggesion</string>
+    <string name="search_emergency_contact">Search Emergency Contact</string>
+    <string name="search_ambulance">Search Ambulance</string>
+    <string name="search_policestation">Search Police Station</string>
+    <string name="search_hospital">Search Hospital</string>
+    <string name="search_bloodbank">Search Blood Bank</string>
+    <string name="search_fire_brigade">Search Fire Brigade</string>
+    <string name="search_watersupply">Search Water Supply</string>
+    <string name="search_maternityhome">Search Maternity Home</string>
+
+    <!--upload photo dialog-->
+    <string name="view_photo">View Photo</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_existing">Choose Existing</string>
+    <string name="delete_photo">Delete Photo</string>
+    <string name="cancel">Cancel</string>
+
+    <!--ward number-->
+    <string name="pcmc_ward11">PCMC Ward 11</string>
+
+    <!--complaint detail-->
+    <string name="no_action_detail">No Action Taken</string>
+
+
+    <!--no data texts-->
+    <string name="no_news">No News Available</string>
+    <string name="add_photo">Upload Photo</string>
+
+    <string name="political_info">Political Info</string>
+
+</resources>

@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:id="@+id/rv_slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@color/white">
+
+                    <com.corporateapp.AppUtils.AutoScrollViewPager
+                        android:id="@+id/pager"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:background="@drawable/placeholder_banner" />
+
+                    <!--<com.viewpagerindicator.CirclePageIndicator
+                        android:id="@+id/indicator"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="bottom"
+                        android:padding="10dip"
+                        app:centered="true"
+                        app:fillColor="@color/colorPrimary"
+                        app:snap="false" />-->
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="7dp"
+                    android:background="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/colorPrimary"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_aboutme"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="9"
+                        android:orientation="horizontal"
+                        android:weightSum="10">
+
+                        <com.corporateapp.fonts.RegularTextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="7.5"
+                            android:gravity="center|left"
+                            android:text="@string/about_us"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <!--<com.corporateapp.fonts.RegularTextView
+                            android:id="@+id/tv_coporatorViewAll"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="2.5"
+                            android:textColor="@color/black"
+                            android:background="@drawable/bg_whitefill_border"
+                            android:gravity="center"
+                            android:text="@string/view_all" />-->
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="7dp"
+                    android:background="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@color/white">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_aboutMe"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/iv_aboutMe"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/grey"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/placeholder_banner" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:weightSum="10">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="8" />
+                            <!-- <RelativeLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="0dp"
+                                 android:layout_weight="2">
+                                 <TextView
+                                     android:layout_width="match_parent"
+                                     android:layout_height="match_parent"
+                                     android:background="@color/black"
+                                     android:alpha="0.2"/>
+                                 <com.corporateapp.fonts.RegularTextView
+                                     android:layout_width="match_parent"
+                                     android:layout_height="match_parent"
+                                     android:text="@string/about_us"
+                                     android:textColor="@color/white"
+                                     android:gravity="center"
+                                     android:textSize="16dp"/>
+                             </RelativeLayout>-->
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <!--<android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_corporator"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="9.6"
+                        android:orientation="vertical"
+                        android:weightSum="10">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="8"
+                            android:scrollbars="none">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <android.support.v7.widget.CardView
+                                    android:layout_width="80dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/white"
+                                    android:elevation="7dp"
+                                    app:cardCornerRadius="0dp">
+
+                                    <LinearLayout
+                                        android:id="@+id/ll_complaints"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:onClick="onClick"
+                                        android:orientation="vertical"
+                                        android:weightSum="10">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_weight="6"
+                                            android:padding="8dp"
+                                            android:src="@mipmap/ic_complaint" />
+
+                                        <com.corporateapp.fonts.RegularTextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="4"
+                                            android:gravity="center"
+                                            android:text="@string/complaint"
+                                            android:textColor="@color/colorPrimary"
+                                            android:textSize="12dp" />
+                                    </LinearLayout>
+                                </android.support.v7.widget.CardView>
+
+
+                                <android.support.v7.widget.CardView
+                                    android:layout_width="80dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="8dp"
+                                    android:background="@color/white"
+                                    android:elevation="7dp"
+                                    app:cardCornerRadius="0dp">
+
+                                    <LinearLayout
+                                        android:id="@+id/ll_currentDevelopment"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:onClick="onClick"
+                                        android:orientation="vertical"
+                                        android:weightSum="10">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_weight="6"
+                                            android:padding="5dp"
+                                            android:src="@mipmap/ic_development" />
+
+                                        <com.corporateapp.fonts.RegularTextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="4"
+                                            android:gravity="center"
+                                            android:text="@string/current_development"
+                                            android:textColor="@color/colorPrimary"
+                                            android:textSize="12dp" />
+                                    </LinearLayout>
+                                </android.support.v7.widget.CardView>
+
+
+                                <android.support.v7.widget.CardView
+                                    android:layout_width="80dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="8dp"
+                                    android:background="@color/white"
+                                    android:elevation="7dp"
+                                    app:cardCornerRadius="0dp">
+
+                                    <LinearLayout
+                                        android:id="@+id/ll_suggesions"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:onClick="onClick"
+                                        android:orientation="vertical"
+                                        android:weightSum="10">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_weight="6"
+                                            android:padding="8dp"
+                                            android:src="@mipmap/ic_complaint" />
+
+                                        <com.corporateapp.fonts.RegularTextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="4"
+                                            android:gravity="center"
+                                            android:text="@string/suggesions"
+                                            android:textColor="@color/colorPrimary"
+                                            android:textSize="12dp" />
+                                    </LinearLayout>
+                                </android.support.v7.widget.CardView>
+
+
+                                <android.support.v7.widget.CardView
+                                    android:layout_width="80dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="8dp"
+
+                                    android:background="@color/white"
+                                    android:elevation="7dp"
+                                    app:cardCornerRadius="0dp">
+
+                                    <LinearLayout
+                                        android:id="@+id/ll_emergency_contacts"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:onClick="onClick"
+                                        android:orientation="vertical"
+                                        android:weightSum="10">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_marginTop="10dp"
+                                            android:layout_weight="6"
+                                            android:padding="8dp"
+                                            android:src="@mipmap/emg_cont" />
+
+                                        <com.corporateapp.fonts.RegularTextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="4"
+                                            android:gravity="center"
+                                            android:text="@string/emergency_contact"
+                                            android:textColor="@color/colorPrimary"
+                                            android:textSize="12dp" />
+                                    </LinearLayout>
+                                </android.support.v7.widget.CardView>
+                            </LinearLayout>
+                        </HorizontalScrollView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="7dp"
+                    android:background="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/green"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="9"
+                        android:orientation="horizontal"
+                        android:weightSum="10">
+
+                        <com.corporateapp.fonts.RegularTextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="7.5"
+                            android:gravity="center|left"
+                            android:text="@string/news"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <com.corporateapp.fonts.RegularTextView
+                            android:id="@+id/txtAllNews"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="2.5"
+                            android:background="@drawable/bg_whitefill_border"
+                            android:gravity="center"
+                            android:text="@string/view_all"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="7dp"
+                    android:background="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="9"
+                        android:orientation="vertical"
+                        android:weightSum="10">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5" />
+
+                        <!--<android.support.v7.widget.RecyclerView
+                            android:id="@+id/rv_news"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="9"></android.support.v7.widget.RecyclerView>-->
+                        <android.support.v4.view.ViewPager
+                            android:id="@+id/vp_news"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="7dp"
+                    android:background="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/colorPrimary"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="9"
+                        android:orientation="horizontal"
+                        android:weightSum="10">
+
+                        <com.corporateapp.fonts.RegularTextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="7.5"
+                            android:gravity="center|left"
+                            android:text="@string/photo_gallary"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <com.corporateapp.fonts.RegularTextView
+                            android:id="@+id/tv_photoGallaryViewAll"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="2.5"
+                            android:background="@drawable/bg_whitefill_border"
+                            android:gravity="center"
+                            android:onClick="onClick"
+                            android:text="@string/view_all"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="7dp"
+                    android:background="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_photoGallary"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:nestedScrollingEnabled="false">
+
+                    </android.support.v7.widget.RecyclerView>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="110dp"
+    android:layout_height="150dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_row"
+        android:layout_width="110dp"
+        android:layout_height="150dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <com.corporateapp.widgets.CustomCircleImageView
+            android:id="@+id/iv_coporatorImage"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5.5"
+            android:padding="1dp" />
+
+        <com.corporateapp.fonts.RegularTextView
+            android:id="@+id/tv_coporatorName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3.5"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Corporator 1"
+            android:textColor="@color/black" />
+    </LinearLayout>
+</LinearLayout>

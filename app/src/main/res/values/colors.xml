@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff6600</color>
+    <color name="colorPrimaryDark">#ff6600</color>
+    <color name="colorAccent">#ff6600</color>
+
+    <color name="orange">#ff6600</color>
+    <color name="white">#ffff</color>
+    <color name="grey">#e6e6e6</color>
+    <color name="black">#000</color>
+    <color name="green">#0A9C59</color>
+    <color name="open_bkg">#75C649</color>
+    <color name="closed_bkg">#E84230</color>
+    <color name="inprogress_bkg">#D9DD5D</color>
+    <color name="notverified_bkg">#a49d9c</color>
+
+
+</resources>

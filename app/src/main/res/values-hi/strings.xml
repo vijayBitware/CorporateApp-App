@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">CorporateApp</string>
+    <string name="marathi">मराठी</string>
+    <string name="english">इंग्रजी</string>
+
+
+    <!--For login screen-->
+    <string name="screen_title">पीसीएमसी प्रभाग - 11</string>
+    <string name="login_titile">लॉग इन </string>
+    <string name="phone_number_hint">फोन  नंबर </string>
+    <string name="password_hint">पासवर्ड </string>
+    <string name="forget_password_title">पासवर्ड विसरलात</string>
+    <string name="new_user_titile">नवीन वापरकर्ता? नोंदणी करा</string>
+    <!--For login screen-->
+
+    <!--For Registration-->
+    <string name="email_hint">ईमेल</string>
+    <string name="blood_group">रक्त गट</string>
+    <string name="confirm_password">पासवर्डची पुष्टी करा</string>
+    <string name="signup_title">साइन अप करा</string>
+    <string name="create_account">खाते तयार करा</string>
+    <string name="name">नाव</string>
+    <string name="complaint">तक्रारी</string>
+    <string name="suggesions">सूचना</string>
+    <string name="current_development">वर्तमान विकास</string>
+    <string name="emergency_contact">आणीबाणी संपर्क</string>
+    <string name="already_user">आधीपासूनच वापरकर्ता? लॉग इन</string>
+    <!--For Registration-->
+
+    <!--For home screen-->
+    <string name="our_operator_title">आमचे नगरसेवक</string>
+    <string name="view_all">सर्व पहा</string>
+    <string name="news">बातम्या</string>
+    <string name="photo_gallary">फोटो गॅलरी</string>
+    <string name="news_row_title">शीर्षक - </string>
+    <string name="news_row_date">तारीख - </string>
+    <string name="about_us">माझ्याबद्दल</string>
+    <!--For home screen-->
+
+    <!--For complaints-->
+    <string name="txt_open">उघडा</string>
+    <string name="txt_closed">बंद</string>
+    <string name="txt_inprogress">प्रगतीपथावर</string>
+    <string name="txt_complaintHd">तक्रार तपशिल</string>
+    <string name="tab_mycomplaint">माझी तक्रार</string>
+    <string name="tab_allcomplaints">सर्व तक्रारी</string>
+    <string name="no_complaints">कोणतीही तक्रारी उपलब्ध नाहीत</string>
+    <string name="txt_ward">वार्ड</string>
+    <string name="txt_location">स्थान</string>
+    <string name="txt_suggesiondetail">सूचना तपशिल</string>
+    <!--For complaints-->
+
+    <!--For suggesions-->
+    <string name="tab_mysuggesions">माझ्या सूचना</string>
+    <string name="tab_allsuggesions">सर्व सूचना</string>
+    <string name="no_suggesion">कोणतेही सूचना उपलब्ध नाहीत</string>
+    <!--For complaints-->
+
+    <!--strings for suggestion form screen-->
+    <string name="txt_info">माहिती</string>
+    <string name="txt_title">शीर्षक</string>
+    <string name="txt_date">तारीख</string>
+    <string name="txt_department">विभाग</string>
+    <string name="txt_description">वर्णन</string>
+    <string name="txt_pincode">पिन कोड</string>
+    <string name="btn_submit">सबमिट करा</string>
+    <string name="btn_cancel">रद्द करा</string>
+    <string name="change">बदला</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--strings for suggestion form screen-->
+
+
+    <!--For member details-->
+    <string name="txt_memDetHd">सदस्य तपशील</string>
+    <string name="txt_name">नाव</string>
+    <string name="txt_email">ईमेल</string>
+    <string name="txt_phNo">फोन नंबर</string>
+    <string name="txt_address">पत्ता</string>
+    <string name="btn_back">परत</string>
+    <string name="txt_allMembers">सर्व सदस्य</string>
+
+    <!--For member details-->
+
+
+    <!--For development details-->
+    <string name="txt_DevDetHd">विकास तपशील</string>
+    <string name="txt_devHd">विकास मथळा</string>
+    <string name="txt_norecords">कोणतेही रेकॉर्ड आढळले नाहीत</string>
+    <string name="txt_actiontaken">केलेली कारवाई</string>
+    <string name="open">उघडा</string>
+
+
+    <!--For development details-->
+
+    <!--For news-->
+    <string name="txt_allNws">सर्व बातम्या</string>
+    <string name="txt_currentdev">विकास</string>
+    <!--For news-->
+
+    <!--no internet msg-->
+    <string name="no_internet">कृपया आपले इंटरनेट कनेक्शन तपासा</string>
+
+    <!--Registration validation-->
+    <string name="enter_email">कृपया ईमेल प्रविष्ट करा</string>
+    <string name="enter_valid_email">कृपया अचुक ईमेल प्रविष्ट करा</string>
+    <string name="enter_number">कृपया फोन नंबर प्रविष्ट करा</string>
+    <string name="enter_valid_number">कृपया अचुक फोन नंबर प्रविष्ट करा</string>
+    <string name="enter_password">कृपया पासवर्ड प्रविष्ट करा</string>
+    <string name="enter_confirmPassword">कृपया आपला पासवर्ड पुष्टी करा</string>
+    <string name="password_dosent_match">पासवर्ड जुळत नाही</string>
+    <string name="enter_name">कृपया नाव लिहा </string>
+
+    <!--forgot password-->
+    <string name="fort_password_title">पासवर्ड विसरला</string>
+    <string name="submit">सबमिट करा</string>
+
+    <!--user profile-->
+    <string name="change_password">पासवर्ड बदला</string>
+    <string name="logout">बाहेर पडणे</string>
+
+    <!--logout dialog-->
+    <string name="logout_msg">आपण लॉगआउट करू इच्छिता याची आपल्याला खात्री आहे?</string>
+    <string name="yes">होय</string>
+    <string name="no">नाही</string>
+
+    <!--headings-->
+    <string name="news_details">बातम्या तपशील</string>
+
+    <!--emegency contacts-->
+    <string name="ambulance">रुग्णवाहिका</string>
+    <string name="police_station">पोलीस चौकी</string>
+    <string name="hospital">रूग्णालय</string>
+    <string name="blood_bank">रक्तपेढी</string>
+    <string name="fire_brigade">अग्निशामक दल</string>
+    <string name="water_supply">पाणीपुरवठा</string>
+    <string name="maternity_home">मातृत्व गृह</string>
+
+    <!--search hints-->
+    <string name="search_corporator">नगरसेवक शोधा</string>
+    <string name="search_news">बातम्या शोधा</string>
+    <string name="search_development">विकास शोधा</string>
+    <string name="search_complaint">शोध तक्रार</string>
+    <string name="search_suggesion">सर्च शोधा</string>
+    <string name="search_emergency_contact">आणीबाणी संपर्क शोधा</string>
+    <string name="search_ambulance">एम्बुलेंस शोधा</string>
+    <string name="search_policestation">पोलिस स्टेशन शोधा</string>
+    <string name="search_hospital">हॉस्पिटल शोधा</string>
+    <string name="search_bloodbank">रक्तपेढी शोधा</string>
+    <string name="search_fire_brigade">फायर ब्रिगेड शोधा</string>
+    <string name="search_watersupply">पाणीपुरवठा शोधा</string>
+    <string name="search_maternityhome">मातृत्व गृह शोधा</string>
+
+    <!--upload photo dialog-->
+    <string name="view_photo">फोटो पहा</string>
+    <string name="take_photo">छायाचित्र घे</string>
+    <string name="choose_existing">विद्यमान निवडा</string>
+    <string name="delete_photo">फोटो हटवा</string>
+    <string name="cancel">रद्द करा</string>
+
+
+    <!--ward number-->
+    <string name="pcmc_ward11">पीसीएमसी वार्ड ११</string>
+
+    <!--status-->
+    <string name="status_open">उघडा</string>
+    <string name="status_inprogress">प्रगतीपथावर</string>
+    <string name="status_close">बंद</string>
+    <string name="status_not_verifiedd">सत्यापित नाही</string>
+
+
+    <string name="no_action_detail">कोणतीही कारवाई केलेली नाही</string>
+
+    <!--no data texts-->
+    <string name="no_news">कोणतीही बातमी उपलब्ध नाही</string>
+    <string name="add_photo">फोटो अपलोड करा</string>
+
+    <string name="language">भाषा</string>
+    <string name="txt_selectedward">प्रभाग निवडा</string>
+
+    <string name="political_info">राजकीय माहिती</string>
+
+</resources>

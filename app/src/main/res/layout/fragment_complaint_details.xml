@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" />
+
+        <com.corporateapp.fonts.RegularTextView
+            android:id="@+id/tv_screenTitle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="center|left"
+            android:text="@string/txt_complaintHd"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+        <!--<ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_phone_number"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_phone_number"
+            android:padding="10dp"/>-->
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/iv_complaintImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dip"
+                    android:layout_alignParentTop="true"
+                    android:src="@mipmap/icon_member_bkg" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <com.corporateapp.fonts.RegularTextView
+                        android:id="@+id/txtCompHd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Complaint heading"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                    <com.corporateapp.fonts.LightTextView
+                        android:id="@+id/txtDate"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="01/02/2017"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+
+                    android:weightSum="1">
+
+                    <com.corporateapp.fonts.RegularTextView
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:text="@string/txt_department"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/grey"
+                        android:textSize="15sp"
+
+                        />
+
+                    <com.corporateapp.fonts.LightTextView
+
+                        android:id="@+id/txtDeaprtment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:text="Developement Heading"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/grey"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <com.corporateapp.fonts.RegularTextView
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:text="@string/txt_ward"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/grey"
+                        android:textSize="15sp"
+
+                        />
+
+                    <com.corporateapp.fonts.LightTextView
+
+                        android:id="@+id/txtWard"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:text="Developement Heading"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/grey"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+
+                <!--  <Spinner
+                      android:id="@+id/spPincode"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"></Spinner>-->
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <com.corporateapp.fonts.RegularTextView
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:text="@string/txt_location"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/grey"
+                        android:textSize="15sp"
+
+                        />
+
+                    <com.corporateapp.fonts.LightTextView
+
+                        android:id="@+id/txtLocation"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:text="Developement Heading"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/grey"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <com.corporateapp.fonts.RegularTextView
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:text="@string/txt_pincode"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/grey"
+                        android:textSize="15sp"
+
+                        />
+
+                    <com.corporateapp.fonts.LightTextView
+                        android:id="@+id/txtPincode"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:text="Developement "
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/grey"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+
+                    android:weightSum="1">
+
+                    <com.corporateapp.fonts.RegularTextView
+
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_description"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/grey"
+                        android:textSize="15sp"
+
+                        />
+
+                    <com.corporateapp.fonts.LightTextView
+                        android:id="@+id/txtDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Developement Headingnn dhhh"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/grey"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/grey" />
+
+                <LinearLayout
+                    android:id="@+id/ll_actionTaken"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <com.corporateapp.fonts.RegularTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_actiontaken"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/grey"
+                        android:textSize="15sp"
+
+                        />
+
+                    <com.corporateapp.fonts.LightTextView
+                        android:id="@+id/txtActionTaken"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Developement Headingnn dhhh"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/grey"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.corporateapp.fonts.LightTextView
+                        android:id="@+id/tvStatus"
+                        android:layout_width="70dip"
+                        android:layout_height="25dip"
+                        android:layout_gravity="center"
+                        android:background="@color/open_bkg"
+                        android:gravity="center"
+                        android:text="@string/txt_open"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+
+                    <ImageView
+                        android:id="@+id/img_like"
+                        android:layout_width="wrap_content"
+                        android:layout_height="26dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@mipmap/ic_like" />
+
+                    <com.corporateapp.fonts.LightTextView
+                        android:id="@+id/txt_num_likes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:text="(20)"
+                        android:textColor="@color/black" />
+
+
+                    <ImageView
+                        android:id="@+id/img_share"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dip"
+                        android:src="@mipmap/ic_share" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/btnBack"
+                    android:layout_width="0dip"
+                    android:layout_height="40dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_green_bkg"
+                    android:text="@string/btn_back"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
